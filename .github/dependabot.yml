@@ -1,0 +1,7 @@
+# Weekly update checks for the Python dependencies in requirements.txt.
+version: 2
+updates:
+  - package-ecosystem: pip
+    directory: /
+    schedule:
+      interval: weekly
